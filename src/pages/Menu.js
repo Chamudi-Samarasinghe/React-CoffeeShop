@@ -15,7 +15,7 @@ const Menu = () => {
     <Layout>
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center", backgroundColor:"black" }}>
         {MenuList.map((menu) => (
-          <Card sx={{ maxWidth: "390px", display: "flex", m: 2 , backgroundColor:"	rgb(218, 160, 109)"}}>
+          <Card sx={{ maxWidth: "390px", display: "flex", m: 2 , backgroundColor:"rgb(205, 127, 50)", marginTop: "50px"}}> 
             <CardActionArea>
               <CardMedia
                 sx={{ minHeight: "400px" }}

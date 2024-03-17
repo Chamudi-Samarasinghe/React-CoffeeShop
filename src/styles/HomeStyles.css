@@ -22,7 +22,10 @@
     font-weight: bold;
     font-size: 70px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-    color: white;
+    color: #371D10;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: goldenrod;
+    
   }
   
   .home .headerContainer p {
@@ -30,7 +33,8 @@
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
-    color: black;
+    color: white;
+    
   }
   
   .headerContainer button {
@@ -47,7 +51,7 @@
   }
   
   .headerContainer button:hover {
-    background-color: #07090a;
+    background-color: #432818;
     cursor: pointer;
     transition: 0.3s ease-in;
   }
@@ -74,7 +78,7 @@
       font-size: 40px;
       height: 30px;
       margin: 30px 0px;
-      color: white;
+      color: #432818;
     }
     .home .headerContainer p {
       font-size: 30px;
@@ -85,4 +89,10 @@
       color: #121619;
       margin-bottom: 30px;
     }
+
+    .headerContainer button:hover {
+      background-color: gray;
+      cursor: pointer;
+      transition: 0.3s ease-in;
   }
+}

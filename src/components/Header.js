@@ -52,7 +52,7 @@ const Header = () => {
   return (
     <>
       <Box>
-        <AppBar component={"nav"} sx={{ bgcolor: "#432818" }}>
+        <AppBar component={"nav"} sx={{ bgcolor: "#371D10" }}>
           <Toolbar>
             <IconButton
               color="inherit"
@@ -104,6 +104,9 @@ const Header = () => {
               "& .MuiDrawer-paper": {
                 boxSizing: "border-box",
                 width: "240px",
+                bgcolor: "black",
+                
+                
               },
             }}
           >
